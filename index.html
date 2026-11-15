@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07374b"><meta name="description" content="Explora el contexto productivo de TrendyCom: 16 problemas y 16 necesidades conectados en un mapa mental interactivo."><title>TrendyCom | Mapa mental del contexto</title><link rel="icon" href="logo.png"><link rel="stylesheet" href="style.css"></head>
+<body>
+<a class="skip" href="#explorador">Saltar al mapa</a>
+<header class="topbar"><a href="#" class="brand" aria-label="TrendyCom, inicio"><img src="logo.png" alt="TrendyCom"><span>INVESTIGACIÓN<br><b>FORMATIVA</b></span></a><nav aria-label="Navegación principal"><a href="#explorador" class="active">El mapa</a><button id="aboutBtn">Sobre el proyecto</button></nav><button class="print-btn" id="printBtn">↗ <span>Imprimir mapa</span></button></header>
+<main>
+<section class="intro"><div><p class="eyebrow">SENA · DESARROLLO MULTIMEDIA Y WEB</p><h1>Una marca. <em>Cuatro contextos.</em></h1><p>Explora los problemas y las necesidades que dan forma a <strong>TrendyCom.</strong></p></div><div class="edition"><b>16 + 16</b><span>PROBLEMAS · NECESIDADES</span></div></section>
+<section id="explorador" aria-label="Mapa mental interactivo">
+<div class="toolbar"><div class="view-switch" aria-label="Modo de visualización"><button id="mapView" aria-pressed="true">◎ Mapa mental</button><button id="readView" aria-pressed="false">☷ Lectura completa</button></div><p id="hint">16 parejas · 4 contextos</p><div class="zoom-controls"><button id="zoomOut" aria-label="Alejar mapa">−</button><button id="fit" aria-label="Ajustar mapa a pantalla">Ajustar</button><button id="zoomIn" aria-label="Acercar mapa">+</button><button id="fullscreen" aria-label="Pantalla completa">⛶</button></div></div>
+<div id="mapViewport" tabindex="0" aria-label="Mapa. Usa los controles para ampliar o las barras de desplazamiento para recorrerlo."><div id="sizer"><div id="world">
+<svg class="connections" viewBox="0 0 1600 980" aria-hidden="true"><path stroke="#009cbd" d="M720 440 C620 440 660 226 580 226"/><path stroke="#208354" d="M880 440 C980 440 940 226 1020 226"/><path stroke="#d36a16" d="M880 550 C980 550 940 754 1020 754"/><path stroke="#934ba8" d="M720 550 C620 550 660 754 580 754"/></svg>
+<div class="map-center"><div class="center-burst"></div><div class="speech-bubble"><svg class="speech-outline" viewBox="0 0 400 214" aria-hidden="true"><path d="M 58 6 H 342 C 374 6 394 26 394 56 V 126 C 394 156 375 174 343 174 H 272 Q 269 192 246 204 Q 255 188 250 174 H 58 C 25 174 6 155 6 126 V 56 C 6 26 25 6 58 6 Z"/></svg><span class="speaker">TRENDYMAN TE GUÍA</span><strong>¡Pulsa una pareja!</strong><span class="speech-action">Descubre cómo se conectan<br>el problema y la necesidad.</span></div><img class="mascot" src="trendyman.png" alt="TrendyMan, anfitrión de TrendyCom"><div class="center-label"><img src="logo.png" alt="TrendyCom"><h2>ANÁLISIS DEL<br>CONTEXTO PRODUCTIVO</h2><p>Camisetas geek bajo pedido<br>Bogotá → Colombia</p></div></div>
+<div id="branches"></div><p class="clock-note">↻ Sigue las ramas en sentido horario: 01 → 02 → 03 → 04</p>
+</div></div></div>
+<div id="reading" hidden></div>
+<div class="map-footer"><span><i></i> 4 contextos conectados · 16 parejas</span><span>Ideas clave en el mapa. Texto completo al pulsar.</span></div>
+</section>
+<section class="context-strip"><strong>EL UNIVERSO TRENDYCOM</strong><p>Cultura geek, camisetas bajo pedido y una comunidad que participa en las próximas tendencias.</p><button id="sourcesBtn">Fuentes del análisis ↗</button></section>
+</main>
+<footer><div><strong>Fabián Enrique Ferro Valbuena</strong><span>Tecnología en Desarrollo Multimedia y Web · Ficha 3466185</span></div><p>SENA · Investigación formativa<br>GA2-240201064-AA1-EV01</p></footer>
+<dialog id="detail"><button class="close" aria-label="Cerrar detalle">×</button><div id="detailContent"></div><div class="dialog-nav"><button id="prev">← Pareja anterior</button><span id="pairCount"></span><button id="next">Siguiente pareja →</button></div></dialog>
+<dialog id="info"><button class="close" aria-label="Cerrar información">×</button><div id="infoContent"></div></dialog>
+<script src="content.js"></script><script src="app.js"></script>
+</body></html>
